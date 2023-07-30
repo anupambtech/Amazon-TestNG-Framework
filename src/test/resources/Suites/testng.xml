@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/repo/AutomationTuto/Amazon-TestNG-Framework/src/test/java/com/amazon/test/tests/AmazonHomePageTest.java">
+        <classes>
+            <class name="com.amazon.test.tests.AmazonHomePageTest">
+                <methods>
+                    <include name="verifyAmazonLogo"/>
+                    <include name="verifyAmazonMenus"/>
+                    <include name="verifyAmazonOperationCountries"/>
+                    <include name="verifyAmazonLoginPage"/>
+                    <include name="validateSignInInvalidLogins"/>
+                </methods>
+            </class>
+            <class name="com.amazon.test.tests.AmazonSignInTest">
+                <methods>
+                    <include name="validateSignInInvalidLogins"/>
+                    <include name="validateSignValidLogins"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
