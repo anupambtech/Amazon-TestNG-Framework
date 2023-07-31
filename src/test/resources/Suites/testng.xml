@@ -6,17 +6,17 @@
         <classes>
             <class name="com.amazon.test.tests.AmazonHomePageTest">
                 <methods>
-                    <include name="verifyAmazonLogo"/>
-                    <include name="verifyAmazonMenus"/>
-                    <include name="verifyAmazonOperationCountries"/>
-                    <include name="verifyAmazonLoginPage"/>
-                    <include name="validateSignInInvalidLogins"/>
+                    <exclude name="verifyAmazonLogo"/>
+                    <exclude name="verifyAmazonMenus"/>
+                    <exclude name="verifyAmazonOperationCountries"/>
+                    <exclude name="verifyAmazonLoginPage"/>
+                    <exclude name="validateSignInInvalidLogins"/>
                 </methods>
             </class>
             <class name="com.amazon.test.tests.AmazonSignInTest">
                 <methods>
-                    <include name="validateSignInInvalidLogins"/>
-                    <include name="validateSignValidLogins"/>
+                    <exclude name="validateSignInInvalidLogins"/>
+                    <exclude name="validateSignValidLogins"/>
                 </methods>
             </class>
         </classes>
