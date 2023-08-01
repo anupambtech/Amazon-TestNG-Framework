@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/repo/AutomationTuto/Amazon-TestNG-Framework/src/test/java/com/amazon/test/tests/AmazonHomePageTest.java">
+        <classes>
+            <class name="com.amazon.test.AppRunner">
+                <methods>
+                    <include name="runUnitTestInGitHubRunner"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
