@@ -28,4 +28,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Run Unit Test
-        run: mvn clean test -Dtest=unit-test.xml
+        run: mvn clean test
